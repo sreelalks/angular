@@ -1,12 +1,1 @@
----------------HTML---------------- 
- <div  *ngFor='let list of profile'>
-<div  *ngIf="!list.show" >
- <button (click)="removeNetwork(list)" class="btn btn-app-primary btn-sm px-4"> Remove</button>
-</div
-</div
 
----------TS------------
-
-  removeNetwork(list) {
-    list.show = !list.show;
-  }
